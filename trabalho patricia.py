@@ -1,14 +1,14 @@
 def monitorar_consumo():
 
- n = int(input('Digite a quantidade de dias: '))
+    n = int(input('Digite a quantidade de dias: '))
 
 
-dias_acima_meta = 0
-dias_abaixo_meta = 0
-soma_consumo = 0
- maior_consumo = -1  # Valor menor que qualquer consumo
-menor_consumo = 10000000  # Um valor alto suficiente para inicializar o menor consumo
-meta_consumo = 150
+    dias_acima_meta = 0
+    dias_abaixo_meta = 0
+    soma_consumo = 0
+    maior_consumo = -1  # Valor menor que qualquer consumo
+    menor_consumo = 10000000  # Um valor alto suficiente para inicializar o menor consumo
+    meta_consumo = 150
 
 
     for e in range(1, n + 1):
